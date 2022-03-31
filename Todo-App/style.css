@@ -5,8 +5,15 @@
 }
 
 body{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     font-family: poppins, sans-serif;
     margin: 0;
+    min-height: 100vh;
+    text-align: center;
+
 }
 h1{
     color: rgb(179, 131, 226);
@@ -27,7 +34,7 @@ form{
 }
 
 .input::placeholder{
-    color: rgb(197, 197, 197);
+    color: rgb(221, 213, 213);
 }
 .todos{
     background-color: aliceblue;
@@ -44,4 +51,9 @@ form{
 .todos li.completed{
     text-decoration: line-through;
     color: rgb(55, 52, 58);
+}
+
+small{
+    margin: top 3rem; 
+    color: #c0b0b0;
 }
