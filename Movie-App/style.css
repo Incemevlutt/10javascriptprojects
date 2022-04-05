@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8a1515;
+    font-family:"poppins", sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color:rgb(197, 16, 16); 
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5rem;
+}
+.search{
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+.search::placeholder{
+color: rgb(181, 181, 218);
+}
+
+.search:focus{
+    background-color: #8a1515;
+    outline: none;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.movie{
+    background-color: rgb(197, 16, 16);
+    border-radius: 3px;
+    box-shadow: 0px 4px 5px rgb(0, 0, 0, 0.25);
+    overflow: hidden;
+    margin: 1rem;
+    width: 300px;
+}
+
+.movie img{
+    max-width: 100%;
+    
+}
+
+.movie-info{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding:0.5rem 1rem 1rem;
+    letter-spacing: 1px;
+
+}
+.movie-info h3{
+    margin: 0;
+}
+
+.movie-info span{
+    background-color: #22254b;
+    border-radius: 3px;
+    padding: 0.25rem 0.5rem;
+    font-weight: bold;
+}
+.movie-info span.green{
+    color: rgb(10, 97, 10);
+}
+.movie-info span.yellow{
+    color: yellow;
+}
+.movie-info span.red{
+    color: red;
+}
+
